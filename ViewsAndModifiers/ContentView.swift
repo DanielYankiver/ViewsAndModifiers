@@ -31,10 +31,10 @@ struct Watermark: ViewModifier {
       content
 
       Text(text)
-        . font (.caption)
-        . foregroundStyle(.white)
-        .padding (5)
-        .background (.black)
+        .font(.caption)
+        .foregroundStyle(.white)
+        .padding(5)
+        .background(.black)
     }
   }
 }
